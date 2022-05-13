@@ -1,6 +1,6 @@
 # TodoApp
 
-![alt tag] (https://github.com/Duyen-codes/todo-react/blob/master/src/assets/Screenshot2.png)
+[Screenshot] (https://github.com/Duyen-codes/todo-react/blob/master/src/assets/Screenshot2.png)
 
 # Built with
 
