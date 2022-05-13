@@ -1,23 +1,36 @@
-import logo from './logo.svg';
-import './App.css';
+import "./App.css";
+import Button from "./UI/Button";
+import AddTodoForm from "./components/AddTodoForm";
+import { useState } from "react";
 
 function App() {
+  const [inputData, setInputData] = useState({
+    title: "",
+    deadline: "",
+    status: "",
+  });
+
+  const [showModal, setShowModal] = useState(false);
+
+  const handleInputChange = (e) => {
+    console.log("input change");
+  };
+  const handleFormSubmit = (e) => {
+    e.preventDefault();
+    console.log("form submit");
+  };
+
+  const handleCancel = (e) => {
+    console.log("cancel click");
+  };
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <Button>Add todo</Button>
+      <AddTodoForm
+        onSubmit={handleFormSubmit}
+        onChange={handleInputChange}
+        onCancel={handleCancel}
+      ></AddTodoForm>
     </div>
   );
 }
