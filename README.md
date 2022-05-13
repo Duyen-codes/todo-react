@@ -1,7 +1,7 @@
 # TodoApp
 
 ![Screenshot](src/assets/Screenshot2.png)
-[https://effulgent-boba-bc86f3.netlify.app/](Livedemo)
+Live demo: [https://effulgent-boba-bc86f3.netlify.app/]
 
 # Built with
 
