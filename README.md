@@ -2,7 +2,7 @@
 
 # Built with
 
-- ReactJs
+- ReactJs functional components, hooks
 - Flexbox
 - Responsive design
 - Pure CSS
