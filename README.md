@@ -1,6 +1,6 @@
 # TodoApp
 
-[Screenshot] (https://github.com/Duyen-codes/todo-react/blob/master/src/assets/Screenshot2.png)
+![Screenshot](src/assets/Screenshot2.png)
 
 # Built with
 
