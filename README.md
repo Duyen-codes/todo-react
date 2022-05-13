@@ -1,5 +1,7 @@
 # TodoApp
 
+![Screenshot] (Screenshot.png)
+
 # Built with
 
 - ReactJs functional components, hooks
